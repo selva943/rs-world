@@ -55,12 +55,18 @@ export function Home() {
                   Call Now
                 </Button>
               </a>
-              <a href="https://wa.me/919361919109" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  WhatsApp
-                </Button>
-              </a>
+             <a href="https://wa.me/919361919109" target="_blank" rel="noopener noreferrer">
+  <Button
+    size="lg"
+    variant="outline"
+    className="text-black border-white hover:bg-white/10"
+  >
+    <MessageCircle className="w-5 h-5 mr-2" />
+    WhatsApp
+  </Button>
+</a>
+
+              
             </div>
           </div>
         </div>
@@ -70,11 +76,7 @@ export function Home() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl mb-4 flex items-center justify-center gap-2">
-              <span>Why Choose</span>
-              <Wrench className="inline w-8 h-8 text-[var(--ingco-yellow)]" aria-label="Tool Icon" />
-              <span>RS Tools World?</span>
-            </h2>
+            <h2 className="text-3xl md:text-4xl mb-4">Why Choose RS Tools World?</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               We are the trusted INGCO dealer in Palani, serving contractors and professionals with quality tools and exceptional service.
             </p>
@@ -250,7 +252,7 @@ export function Home() {
               </Button>
             </a>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="text=black hover:bg-white/10">
                 Contact Us
               </Button>
             </Link>
